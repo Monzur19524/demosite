@@ -1,0 +1,133 @@
+*{margin:0;padding: 0;}
+
+
+body{
+    background-image: url(img/30351564-graffiti-art-aerosol-spray-paint-underground-wall-street-youth-characters-seamless-wrap-paper-patter.jpg) ;
+    background-size: cover;
+    
+}
+
+
+.header{
+    background: orange;
+    padding: 20px;
+    margin-top: 10px;
+    font-family: american typewriter;
+    width: 920px;
+    margin: 0 auto;
+   
+}
+.header h2{
+    color: #fff;
+}
+.header p{
+    color: greenyellow
+}
+
+.menu{
+    border-top: 4px solid royalblue; 
+    border-bottom: 4px solid royalblue;
+    min-height: 38px;
+    background: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    margin: 0 auto;
+
+
+}
+.menu ul{
+    list-style-type: none;
+    z-index: 9999999999;
+    
+}
+.menu ul li{
+    float: left;
+    border-right: 1px solid royalblue;
+    position: relative;
+}
+.menu ul li:first-child{
+    border-left: 1px solid royalblue;;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+.menu ul li ul{
+    position:absolute;
+    left: -9999999px;
+    background:#fff;
+    width: 150px;
+}
+.menu ul li ul li{
+    float: none;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid royalblue;
+}
+.menu ul li ul li:first-child{
+    border-left: none;
+}
+.menu ul li:hover ul{
+    left: 0;
+    
+}
+.menu ul li:hover{
+    background: #ddd;
+}
+
+
+#wrapper{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 10px;
+    background: #ddd;
+    border: 2px solid greenyellow;
+}
+#heading{
+    width: 100%;
+    background: greenyellow;
+    margin-bottom: 10px;
+    border: none;
+    padding: 2px;
+}
+#heading h2{
+    padding: 8px;
+    color:green;
+    text-align: center;
+    font-family: impact;
+}
+#input-field{
+    width: 100%;
+    
+    
+
+}
+#input-field input{
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+#submit-button input{
+    background: greenyellow;
+    width: 400px;
+    padding: 8px;
+    font-family: impact;
+    font-size: 20px;
+    color: forestgreen;
+    border: none;
+    
+}
+#submit-button{
+    padding: 2px;
+}
+#submit-button input:hover{
+    background: yellowgreen;
+}
+#forget-pass a{
+    text-decoration: none;
+
+}
